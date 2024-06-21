@@ -1,6 +1,6 @@
 {
   "basics": {
-    "name": "Fernando Morán",
+    "name": "Fernando Morán Fougerat",
     "label": "Programmer",
     "image": "",
     "email": "fermofou@gmail.com",
@@ -46,8 +46,13 @@
     "issuer": "freeCodeCamp",
     "url": "https://www.freecodecamp.org/certification/fermofou/foundational-c-sharp-with-microsoft"
   }],
+  "awards": [{
+    "name": "50% academic scholarship",
+    "date": "2022-02-16",
+    "issuer": "Tecnológico de Monterrey (ITESM)"
+  }],
   "skills": [{
-    "name": "Web Development",
+    "name": "Application Development",
     "level": "Expert",
     "keywords": [
       "React.js",
@@ -55,7 +60,9 @@
       "Postman",
       "HTML",
       "CSS",
-      "JavaScript"
+      "JavaScript",
+      "OpenAI API",
+      "Postman"
     ]
   },{
     "name": "Programming with Data Structures and Algorithms",
@@ -66,19 +73,23 @@
       "C#"
     ]
   },{
-    "name": "Databases",
+    "name": "Databases and Data Analysis",
     "level": "Advanced",
     "keywords": [
+      "SQL",
       "MySQL",
       "MongoDB",
-      "DBeaver"
+      "DBeaver",
+      "R",
+      "Looker Studio"
     ]
   },{
     "name": "Automation Solutions",
     "level": "Expert",
     "keywords": [
       "Python",
-      "Microsoft Power Automate"
+      "Microsoft Power Automate",
+      "Azure Environment"
     ]
     },{
     "name": "Machine Learning Classifiers",
@@ -86,6 +97,16 @@
     "keywords": [
       "Python scikit-learn",
       "TensorFlow"
+    ]
+  },{
+    "name": "Soft skills",
+    "level": "",
+    "keywords": [
+      "Teamwork",
+      "Problem-solving",
+      "Adaptability",
+      "Communication",
+      "Scrum methodology" 
     ]
   }],
 
@@ -125,7 +146,7 @@
     "endDate": "2023-09-24",
     "description": "CerebrAI is a web application intended to be an all-in-one investigation tool, powered by AI. It can summarize multiple document types (videos, webpages, and text), as well as extract main keywords, and related links. It also has an AI chatbot, which can answer questions about the uploaded text or document.",
     "highlights": [
-      "Finalist in the 10th edition of the biggest student Hackathon in Mexico, HACKMTY."
+      "Finalist in the 10th edition of the biggest student Hackathon in Mexico, HACKMTY. Helped me aquire my current internship at Softtek."
     ],
     "Made with:": [
     "Open AI API",
@@ -139,7 +160,7 @@
     "endDate": "2023-12-01",
     "description": "Project to monitor the well-being of a plant. Using a NodeMCU, we were able to connect the sensors to a database which allowed the user to see the current and all-time data in a dashboard. This project allowed me to gain much experience with working with databases, connecting my program through APIs, and understanding how electrical systems work.",
     "highlights": [
-      ""
+      "Cool IoT project that allowed me to learn a lot about working with databases and APIs configuration."
     ],
     "Made with:": [
     "IoT (arduino)",
