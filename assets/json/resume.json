@@ -49,9 +49,10 @@
     "url": "https://www.hackerrank.com/certificates/f4f44903de58"
   }],
   "awards": [{
-    "name": "50% academic scholarship",
+    "title": "50% academic scholarship",
     "date": "2022-02-16",
-    "issuer": "Tecnológico de Monterrey (ITESM)"
+    "awarder": "Tecnológico de Monterrey (ITESM)",
+    "summary": "Awarded based on my academic performance in my high school and an academic test contest."
   }],
   "skills": [{
     "name": "Application Development",
