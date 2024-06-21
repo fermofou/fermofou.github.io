@@ -1,12 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - fermofou
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - SergioGzzBrz/HackMty-System32
+  - JulenHopp/clonePaginaWebSorteosTec
+  - fermofou/PlantGPT
+  - fermofou/hack_scrumMasters
+  - fermofou/Cpp_projects/Data Structures and Fundamental Alghoritm

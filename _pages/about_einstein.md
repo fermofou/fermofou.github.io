@@ -1,4 +1,6 @@
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello! I'm Fer, a mexican intern at Softtek at the Application Management Services (AMS) Area and fifth semester student of B.S. in Computer Science and Technology at the Tecnológico de Monterrey. I have  experience on developing automation solutions, working with data bases and creating web applications. 
+
+I really enjoy learning new technology, participating on hackathons and watching sports (mainly futbol). I have proficiency with c++, Python, MySQL, React, Node.js and Microsoft Power Automate, alongside many others. Talk to me through my email: fermofou@gmail.com .
 
 Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
