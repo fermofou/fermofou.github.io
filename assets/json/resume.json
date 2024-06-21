@@ -26,10 +26,7 @@
     "url": "",
     "startDate": "2023-11-15",
     "endDate": "",
-    "summary": "During this internship, I have been working in Softtek’s Application Management Services area, mainly assisting in the implementation of automation services for our clients. Additionally, this experience has allowed me to take certifications to enhance my skills and also provided me with opportunities to tackle real world problems, contributing to the improvement of my programming abilities. On the projects I've worked on, I have used many technologies, including the Azure environment, machine learning libraries (MLL) in Python, C#, and Power Automate, among others.",
-    "highlights": [
-      ""
-    ]
+    "summary": "During this internship, I have been working in Softtek’s Application Management Services area, mainly assisting in the implementation of automation services for our clients. Additionally, this experience has allowed me to take certifications to enhance my skills and also provided me with opportunities to tackle real world problems, contributing to the improvement of my programming abilities. On the projects I've worked on, I have used many technologies, including the Azure environment, machine learning libraries (MLL) in Python, C#, and Power Automate, among others."
   }],
   "education": [{
     "institution": "Tecnológico de Monterrey (ITESM)",
@@ -45,6 +42,11 @@
     "date": "2024-06-18",
     "issuer": "freeCodeCamp",
     "url": "https://www.freecodecamp.org/certification/fermofou/foundational-c-sharp-with-microsoft"
+  },{
+    "name": "SQL (Intermediate) Certificate",
+    "date": "2024-06-19",
+    "issuer": "HackerRank",
+    "url": "https://www.hackerrank.com/certificates/f4f44903de58"
   }],
   "awards": [{
     "name": "50% academic scholarship",
