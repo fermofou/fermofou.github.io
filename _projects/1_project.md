@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
+title: Implementation of substitution decryption
 description: with background image
 img: assets/img/12.jpg
 importance: 1
-category:
+category: school
 related_publications: true
 ---
 

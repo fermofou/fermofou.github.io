@@ -5,7 +5,7 @@ permalink: /projects/
 description: A collection of some of my projects :)
 nav: true
 nav_order: 3
-display_categories: [school, personal, Hackathons]
+display_categories: [school, personal, hackathons, work, fun]
 horizontal: false
 ---
 
