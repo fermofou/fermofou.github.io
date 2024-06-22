@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+title: First news announcement
+date: 2024-06-22 13:40:00-0600
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+My website is live! :)
