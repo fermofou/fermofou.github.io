@@ -1,16 +1,14 @@
 ---
 layout: page
 title: tare.Study
-description: a project that redirects to another website
+description: a smart platform designed to support teachers using AI.
 img: assets/img/7.jpg
 redirect: https://devpost.com/software/tare-study
 importance: 3
 category: Hackathons
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+TARE.STUDY is a smart platform designed to support teachers by enabling them to visualize student performance, create personalized teaching plans and exams according to the group level, correct exams and receive detailed weekly reports
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
