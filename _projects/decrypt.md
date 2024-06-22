@@ -5,7 +5,7 @@ description: Python code that decripts text using parallel programming.
 img: assets/img/p1.jpg
 importance: 1
 category: school
-related_publications: true
+related_publications: false
 ---
 
 On this project, my team (Monica Sóberon, Bernardo Willis) and I were tasked with decrypting different texts that used a monoalphabetic substitution cipher. My role on this project was the implementation developer, and I developed this solution. We created a function to count letters in a given message; then create a substitution "key" by pairing the frequencies based on the average of english alphabet; and finally replace the letter using said key.
