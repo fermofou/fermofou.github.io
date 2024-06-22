@@ -49,11 +49,16 @@
     "url": "https://www.hackerrank.com/certificates/f4f44903de58"
   }],
   "awards": [{
-    "title": "50% academic scholarship",
+    "title": "50% Academic Scholarship",
     "date": "2022-02-16",
     "awarder": "Tecnológico de Monterrey (ITESM)",
     "summary": "Awarded based on my academic performance in my high school and an academic test contest."
-  }],
+  },{
+    "title": "Class winner project: Interconexión de Dispositivos",
+    "date": "2024-06-19",
+    "awarder": "Velatia and Tecnológico de Monterrey (ITESM)",
+    "summary": "My team was awarded as the winner project from our class on the course 'Interconexión de Dispositivos', where we created a solution for our client by designing both logically and physically (using CISCO Packet Tracer) a secure network infrastructure."
+}],
   "skills": [{
     "name": "Application Development",
     "level": "Expert",
@@ -68,14 +73,6 @@
       "Postman"
     ]
   },{
-    "name": "Programming with Data Structures and Algorithms",
-    "level": "Expert",
-    "keywords": [
-      "C++",
-      "Python",
-      "C#"
-    ]
-  },{
     "name": "Databases and Data Analysis",
     "level": "Advanced",
     "keywords": [
@@ -85,6 +82,14 @@
       "DBeaver",
       "R",
       "Looker Studio"
+    ]
+  },{
+    "name": "Programming with Data Structures and Algorithms",
+    "level": "Expert",
+    "keywords": [
+      "C++",
+      "Python",
+      "C#"
     ]
   },{
     "name": "Automation Solutions",
@@ -103,7 +108,7 @@
     ]
   },{
     "name": "Soft skills",
-    "level": "",
+    "level": "Master",
     "keywords": [
       "Teamwork",
       "Problem-solving",
@@ -126,7 +131,7 @@
   "interests": [{
     "name": "Sports",
     "keywords": [
-      "Football",
+      "Football (soccer)",
       "American Football",
       "Sports analytics"
     ]
