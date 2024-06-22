@@ -36,7 +36,7 @@ When comparing results, individually there was some underperformance against a s
     </div>
 </div>
 <div class="caption">
-    Here's an example of my final text solution.
+    Here's an example of my final text solution. I implemented a manual substitution to allow the user to change letters one by one while seeing the output text.
 </div>
 
 You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
