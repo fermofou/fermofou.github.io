@@ -8,7 +8,7 @@ category: school
 related_publications: true
 ---
 
-On this project, my team (Monica Sóberon, Bernardo Willis) and I were tasked with decrypting different texts that used a monoalphabetic substitution cipher. My role on this project was the implementation developer, and I developed this program. We created a function to count letters in a given message; then create a substitution "key" by pairing the frequencies based on the average of english alphabet; and finally replace the letter using said key.
+On this project, my team (Monica Sóberon, Bernardo Willis) and I were tasked with decrypting different texts that used a monoalphabetic substitution cipher. My role on this project was the implementation developer, and I developed this solution. We created a function to count letters in a given message; then create a substitution "key" by pairing the frequencies based on the average of english alphabet; and finally replace the letter using said key.
 
 We applied parallel programming in 2 different ways: one was processig text by chunks, and create key with joint results; and the other was running different files using multiprocessing, each proccess in a sequential manner.
 
@@ -37,8 +37,6 @@ When comparing results, individually there was some underperformance against a s
 <div class="caption">
     Here's an example of my final text solution. I implemented a manual substitution to allow the user to change letters one by one while seeing the output text.
 </div>
-
-<!-- You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}. -->
 
 This was a cool project to get to know a useful technique and to understand when it's better to use this tool (heavier or larger tasks,preferably that can be solved independently) against a sequential approach (tasks with dependencies on same resources or variables.)
 
