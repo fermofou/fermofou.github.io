@@ -1,21 +1,16 @@
 ---
 layout: page
 title: CerebrAI
-description: web application intended to be an all-in-one investigation tool, powered by AI.
+description: CerebrAI is a web application intended to be an all-in-one investigation tool, powered by AI.
 img: assets/img/2.jpg
 importance: 2
-category: hackathon
+category: hackathons
 giscus_comments: false
 ---
 
 Created by:
 
-*Fernando Morán
-*Sergio González
-*Luis Amado
-*Rodrigo García
-
-CerebrAI is a web application intended to be an all-in-one investigation tool, powered by AI.
+Fernando Morán | Sergio González | Luis Amado | Rodrigo García
 
 It can summarize multiple document types (videos, webpages, and text), as well as extract main keywords, and related links. It also has an AI chatbot, which can answer questions about the uploaded text or document
 
