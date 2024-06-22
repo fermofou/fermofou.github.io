@@ -11,30 +11,32 @@ related_publications: true
 On this project, my team (Monica Sóberon, Bernardo Willis) and I were tasked with decrypting different texts that used a monoalphabetic substitution cipher.
 For our program, we created a function to count letters in a given message; then create the dictionary "key" by pairing the frequencies based on the average of english alphabet; and finally replace the letter using said key.
 
-We applied parallel programming in 2 different ways: to process text by chunks, and create key with joint results; running different files using multiprocessing, each proccess in a sequential manner. When comparing results, individually there was some underperformance against a sequential approach on our .txt files, however there was a massive improvement on performance when running all files at the same time, compared to one by one.
+We applied parallel programming in 2 different ways: one was processig text by chunks, and create key with joint results; and the other was running different files using multiprocessing, each proccess in a sequential manner.
+
+When comparing results, individually there was some underperformance against a sequential approach on our .txt files, however there was a massive improvement on performance when running all files at the same time, compared to one by one.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/p1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/p1.jpg" title="cover image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/p2.jpg" title="initial cipher" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/p3.jpg" title="final cipher" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, picture from <a href="https://unsplash.com/es/@flyd2069?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">FlyD</a> on <a href="https://unsplash.com/es/fotos/candado-de-amor-rojo-y-negro-zAhAUSdRLJ8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-  . Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    On the left, picture from <a href="https://unsplash.com/es/@flyd2069?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">FlyD</a> on <a href="https://unsplash.com/es/fotos/candado-de-amor-rojo-y-negro-zAhAUSdRLJ8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  . Middle, initial cipher text. Right, result of our deciphered text. As it's based on the statistics of repetition of letters at a text, it's not 100% correct, however it's enough to solve manually intuitively.
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/p4.jpg" title="final result" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Here's an example of my final text solution.
 </div>
 
 You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
