@@ -38,15 +38,15 @@
     "GPA": "97"
 }],
   "certificates": [{
-    "name": "Foundational C# with Microsoft",
-    "date": "2024-06",
-    "issuer": "freeCodeCamp",
-    "url": "https://www.freecodecamp.org/certification/fermofou/foundational-c-sharp-with-microsoft"
-  },{
     "name": "SQL (Intermediate) Certificate",
     "date": "2024-06",
     "issuer": "HackerRank",
     "url": "https://www.hackerrank.com/certificates/f4f44903de58"
+  },{
+    "name": "Foundational C# with Microsoft",
+    "date": "2024-06",
+    "issuer": "freeCodeCamp",
+    "url": "https://www.freecodecamp.org/certification/fermofou/foundational-c-sharp-with-microsoft"
   }],
   "awards": [{
     "title": "50% Academic Scholarship",
