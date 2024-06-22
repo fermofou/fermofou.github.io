@@ -1,7 +1,7 @@
 ---
 layout: page
-title: tare.Study
-description: a smart platform designed to support teachers using AI.
+title: Tare.study
+description: A smart platform designed to support teachers using AI.
 img: assets/img/7.jpg
 redirect: https://devpost.com/software/tare-study
 importance: 3
