@@ -44,7 +44,7 @@ Video display of all functions and Looker Dashboard
 <div class="row justify-content-center mt-3">
     <div class="col-12 col-md-10">
         <div class="embed-responsive embed-responsive-16by9">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/iaOVPcZ30gI?si=E90F2zk0u-szbPAI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <<iframe width="100%" height="100%" src="https://drive.google.com/file/d/1pdvh_mEnkXPKA3jivYIpYKTaoukxH5p3Yg/preview"></iframe>
         </div>
     </div>
 </div>
