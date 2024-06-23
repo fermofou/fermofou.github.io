@@ -23,10 +23,10 @@ I really enjoy learning new technology, participating on hackathons and watching
 
 I will soon start posting Youtube videos on projects I develop :)
 
-## GitHub user
+<!-- ## GitHub user
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
 
 {% include repository/repo_user.liquid username='fermofou' %}
 
-</div>
+</div> -->
