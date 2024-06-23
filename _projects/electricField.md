@@ -29,8 +29,3 @@ This was done with the purpose of studying the characteristics of this non-unifo
 <div class="caption">
     Here's a video with the results of our Matlab App.
 </div>
-
-<div class="row justify-content-center mt-3">
-    <object data="{{ 'assets/pdf/EFM.pdf' | relative_url }" width="1000" height="1000" type="application/pdf"></object>
-     
-</div>
