@@ -39,11 +39,13 @@ On this project, I worked on different areas:
 - visual design, creating most of the images for our games in an 8-bit art style using Photoshop.
 - making our dashboard using my experience using Looker Studio.
 
-## Video display of all functions and Looker Dashboard
+Video display of all functions and Looker Dashboard
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://www.youtube.com/embed/iaOVPcZ30gI?si=E90F2zk0u-szbPA" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-center mt-3">
+    <div class="col-12 col-md-10">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/iaOVPcZ30gI?si=E90F2zk0u-szbPAI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
     </div>
 </div>
 
