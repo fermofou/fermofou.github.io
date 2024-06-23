@@ -2,7 +2,7 @@
 layout: page
 title: Automated Plant Care System
 description: IoT smart plant keeper with automated irrigation and an up-to-date database.
-img: assets/img/7.jpg
+img: assets/img/3.jpg
 redirect:
 importance: 3
 category: school
@@ -42,4 +42,11 @@ Our project was configured using Arduino, we sent our data measured to a mySQL d
 </div>
 <div class="caption">
     Here's a <a href="https://lookerstudio.google.com/reporting/98638818-5ba9-4e56-a093-f12c14b2fe23">dashboard </a> we made on Looker Studio, with our database.
+</div>
+
+## Repository:
+
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+    {% include repository/repo.liquid repository='fermofou/PlantGPT' %}
+
 </div>
