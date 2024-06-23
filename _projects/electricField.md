@@ -29,3 +29,5 @@ This was done with the purpose of studying the characteristics of this non-unifo
 <div class="caption">
     Here's a video with the results of our Matlab App.
 </div>
+
+<object data="https://fermofou.github.io/assets/pdf/EFM.pdf" width="1000" height="1000" type="application/pdf"></object>
