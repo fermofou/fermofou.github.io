@@ -43,7 +43,7 @@ On this project, I worked on different areas:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://www.youtube.com/watch?v=iaOVPcZ30gI" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid path="https://www.youtube.com/embed/iaOVPcZ30gI?si=E90F2zk0u-szbPA" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
