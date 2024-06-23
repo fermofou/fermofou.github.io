@@ -39,7 +39,7 @@ On this project, I worked on different areas:
 - visual design, creating most of the images for our games in an 8-bit art style using Photoshop.
 - making our dashboard using my experience using Looker Studio.
 
-# Video display of all functions and Looker Dashboard
+## Video display of all functions and Looker Dashboard
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -50,4 +50,10 @@ On this project, I worked on different areas:
 <div class="caption">
     Video displaying all features.
 </div>
-<
+
+## Repository:
+
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+    {% include repository/repo.liquid repository='JulenHopp/clonePaginaWebSorteosTec' %}
+
+</div>
