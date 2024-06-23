@@ -4,7 +4,7 @@ title: Automated Plant Care System
 description: IoT smart plant keeper with automated irrigation and an up-to-date database.
 img: assets/img/3.jpg
 redirect:
-importance: 3
+importance: 2
 category: school
 ---
 

@@ -3,7 +3,7 @@ layout: page
 title: Electric field modeling
 description: Matlab application that models the movement of a charge inside of an electric field.
 img: assets/img/5.jpg
-importance: 3
+importance: 5
 category: school
 ---
 

@@ -3,7 +3,7 @@ layout: page
 title: Future Games Sorteos Tec
 description: Integration of the Sorteos Tec platform with new games and saved on cloud.
 img: assets/img/4.jpg
-importance: 3
+importance: 1
 category: school
 ---
 

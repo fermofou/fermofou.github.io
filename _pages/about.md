@@ -22,3 +22,11 @@ Hello! I'm Fer, a Mexican intern at Softtek at the Application Management Servic
 I really enjoy learning new technology, participating on hackathons and watching sports (mainly soccer). I have proficiency with c++, Python, MySQL, React, Node.js and Microsoft Power Automate, alongside many other technologies. Talk to me through my email: fermofou@gmail.com, or connect with me on LinkedIn.
 
 I will soon start posting Youtube videos on projects I develop :)
+
+## GitHub user
+
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+
+{% include repository/repo_user.liquid username='fermofou' %}
+
+</div>

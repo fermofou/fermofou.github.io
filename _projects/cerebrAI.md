@@ -3,9 +3,9 @@ layout: page
 title: CerebrAI
 description: CerebrAI is a web application intended to be an all-in-one investigation tool, powered by AI.
 img: assets/img/2.jpg
-importance: 2
+importance: 1
 category: hackathons
-giscus_comments: false
+giscus_comments: true
 ---
 
 Created by:

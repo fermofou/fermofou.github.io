@@ -4,7 +4,7 @@ title: Tare.study
 description: A smart platform designed to support teachers using AI.
 img: assets/img/1.jpg
 redirect: https://devpost.com/software/tare-study
-importance: 3
+importance: 2
 category: hackathons
 ---
 

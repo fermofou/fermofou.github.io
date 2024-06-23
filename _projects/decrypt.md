@@ -27,7 +27,7 @@ When comparing results, individually there was some underperformance against a s
 </div>
 <div class="caption">
     On the left, picture from <a href="https://unsplash.com/es/@flyd2069?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">FlyD</a> on <a href="https://unsplash.com/es/fotos/candado-de-amor-rojo-y-negro-zAhAUSdRLJ8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-  . Middle, initial cipher text. Right, result of our deciphered text. As it's based on the statistics of repetition of letters at a text, it's not 100% correct, however it's enough to solve manually intuitively (e.g., "BLOOD SAR BEEI RPNILLED..." is "BLOOD HAS BEEN SPILLED".)
+  . Middle, initial cipher text. Right, result of our deciphered text. As it's based on the statistics of repetition of letters in a text, it's not 100% correct, however it's enough to solve manually intuitively (e.g., "BLOOD SAR BEEI RPNILLED..." is "BLOOD HAS BEEN SPILLED".)
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
