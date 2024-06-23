@@ -37,6 +37,6 @@ Our program could extract text from different media files, using simple function
 This project was a finalist in the 10th edition of the biggest student Hackathon in Mexico, HACKMTY (2023).
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-    {% include repository/repo.liquid repository=HackMty-System32 %}
+    {% include repository/repo.liquid repository=fermofou/HackMty-System32 %}
 
 </div>
