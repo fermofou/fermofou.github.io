@@ -33,7 +33,7 @@ This was done with the purpose of studying the characteristics of this non-unifo
 <div class="row justify-content-center mt-3">
     <div class="col-12 col-md-10">
         <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="assets/pdf/NTREGA FINAL_ MODELACION DE CAMPO ELECTRICO ENTRE DOS PLACAS CONDUCTORAS.pdf" allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" src="assets/pdf/EFM.pdf" allowfullscreen></iframe>
         </div>
     </div>
 </div>
