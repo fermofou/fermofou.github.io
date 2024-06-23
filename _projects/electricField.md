@@ -33,7 +33,7 @@ This was done with the purpose of studying the characteristics of this non-unifo
 <div class="row justify-content-center mt-3">
     <div class="col-12 col-md-10">
         <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="assets/pdf/EFM.pdf" allowfullscreen></iframe>
+            <object data="{{ 'assets/pdf/EFM.pdf' | relative_url }}" width="1000" height="1000" type="application/pdf"></object>
         </div>
     </div>
 </div>
