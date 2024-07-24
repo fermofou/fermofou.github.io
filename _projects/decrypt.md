@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Implementation of substitution decryption
+title: Parallel substitution decryption
 description: Python code that decripts text using parallel programming.
 img: assets/img/p1.jpg
 importance: 1

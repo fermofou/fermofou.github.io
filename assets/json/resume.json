@@ -6,7 +6,7 @@
     "email": "fermofou@gmail.com",
     "phone": "(52) 8111231309",
     "url": "https://fermofou.github.io",
-    "summary": "Intern at Softtek at the Application Management Services Area and fourth semester student of B.S. in Computer Science and Technology at the Tecnológico de Monterrey with experience on developing automation solutions, working with data bases and creation of web applications. Proficiency with c++, Python, MySQL, React, Node.js and Microsoft Power Automate.",
+    "summary": "Intern at Softtek at the Application Management Services Area and fifth semester student of B.S. in Computer Science and Technology at the Tecnológico de Monterrey with experience on developing automation solutions, working with data bases and creation of web applications. Proficiency with c++, Python, MySQL, React, Node.js and Microsoft Power Automate.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -47,6 +47,11 @@
     "date": "2024-06",
     "issuer": "freeCodeCamp",
     "url": "https://www.freecodecamp.org/certification/fermofou/foundational-c-sharp-with-microsoft"
+  },{
+    "name": "French B1 level",
+    "date": "2021-07",
+    "issuer": "International Baccalaureate",
+    "url": ""
   }],
   "awards": [{
     "title": "50% Academic Scholarship",
@@ -60,7 +65,7 @@
     "summary": "My team was awarded as the winner project from our class on the course 'Interconexión de Dispositivos', where we created a solution for our client by designing both logically and physically (using CISCO Packet Tracer) a secure network infrastructure."
 }],
   "skills": [{
-    "name": "Application Development",
+    "name": "Web Application Development",
     "level": "Expert",
     "keywords": [
       "React.js",
@@ -69,8 +74,7 @@
       "HTML",
       "CSS",
       "JavaScript",
-      "OpenAI API",
-      "Postman"
+      "OpenAI API"
     ]
   },{
     "name": "Databases and Data Analysis",
@@ -89,7 +93,8 @@
     "keywords": [
       "C++",
       "Python",
-      "C#"
+      "C#",
+      "Java"
     ]
   },{
     "name": "Automation Solutions",
@@ -104,7 +109,8 @@
     "level": "Intermediate",
     "keywords": [
       "Python scikit-learn",
-      "TensorFlow"
+      "TensorFlow",
+      "DL4J"
     ]
   },{
     "name": "Soft skills",
@@ -143,7 +149,7 @@
       "R"
     ]
   },{
-    "name": "Artificial Intelligence",
+    "name": "Generative Artificial Intelligence",
     "keywords": [
       "Deep Learning",
       "OpenAI"

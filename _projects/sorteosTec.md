@@ -15,7 +15,7 @@ Made by:
 - Bernardo Willis A00837831
 - Julen Hoppenstedt A01174098
 
-This is a webpage that integrates the current (April 2024) Sorteos Tec webpage functionality alongside new games developed on Unity, that saves all transactions carried out in a cloud mySQL database hosten on Aiven servers.
+This is a webpage that integrates the current (April 2024) Sorteos Tec webpage functionality alongside new games developed on Unity, that saves all transactions carried out in a cloud mySQL database hosted on Aiven servers.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
