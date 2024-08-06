@@ -44,9 +44,11 @@ Our project was configured using Arduino, we sent our data measured to a mySQL d
     Here's a <a href="https://lookerstudio.google.com/reporting/98638818-5ba9-4e56-a093-f12c14b2fe23">dashboard </a> we made on Looker Studio, with our database.
 </div>
 
-## Repository:
+<!-- ## Repository: -->
 
-https://github.com/fermofou/PlantGPT
+Here is the link to the repository:
+
+[Visit the repository](https://github.com/fermofou/PlantGPT)
 
 <!-- <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
     {% include repository/repo.liquid repository='fermofou/PlantGPT' %}
