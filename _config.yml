@@ -28,7 +28,7 @@ back_to_top: true # set to false to disable the back to top button
 # -----------------------------------------------------------------------------
 
 # repo color theme
-repo_theme_light: default_repocard # og: default https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_light: default # og: default https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: react #og: dark  https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
   enabled: true
@@ -132,7 +132,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: fermofou # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_description: a simple blog
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
