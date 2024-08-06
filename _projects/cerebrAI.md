@@ -39,6 +39,11 @@ This project was a finalist in the 10th edition of the biggest student Hackathon
 ## Repository:
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-    {% include repository/repo.liquid repository='fermofou/HackMty-System32' %}
-
+    {% assign repo = 
+      {
+        "name": "HackMty-System32",
+        "url": "https://github.com/fermofou/HackMty-System32"
+      } 
+    %}
+    {% include repository/repo.liquid repository=repo %}
 </div>
