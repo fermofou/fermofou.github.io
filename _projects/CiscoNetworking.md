@@ -1,0 +1,60 @@
+---
+layout: page
+title: Secure Network Design
+description: Design both logically and physically (using CISCO Packet Tracer) a secure network infrastructure.
+
+img: assets/img/net.png
+importance: 3
+category: school
+related_publications: false
+---
+
+On this project, my teammates and I were tasked by our training partner Velatia with designing both logically and physically a secure network infrastructure using CISCO Packet Tracer. This was a great activity to get more familiar with network protocols, equipment needed and important security measures on the industry.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/net.png" title="final image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/n1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/n2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    On the left, our final CISCO Packet Traer file. Middle and right, include our logical architecture of our network.
+</div>
+
+In our solution, we included SSH encryption through our routers to improve security. We also added router configuration from a PC on a private network and implemented separate virtual networks for different teams and guests. Also, we investigated more secure techniques in the industry to improve our solution proposal, such as obtaining ISO 9001:2015 certification, disabling Bluetooth, and enabling BitLocker on computers.
+
+We had a great result, being awarded as the best team on our class by both my professors and our educational partner Velatia, and for me personally allowed me to get certified with CISCO's Networking Basics student credential.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/n3.png" title="cert image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Here's a badge that I earned. See more of my certifications <a href="https://www.linkedin.com/in/fernando-mor%C3%A1n-fougerat-397852295/details/certifications/">here</a>.
+</div>
+
+The code is simple.
+Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
+To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
+Here's the code for the last row of images above:
+
+{% raw %}
+
+```html
+<div class="row justify-content-sm-center">
+  <div class="col-sm-8 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm-4 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+```
+
+{% endraw %}
