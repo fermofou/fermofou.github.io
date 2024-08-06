@@ -36,5 +36,5 @@ We had a great result, being awarded as the best team on our class by both my pr
     </div>
 </div>
 <div class="caption">
-    Here's a badge that I earned. See more of my certifications <a href="https://www.linkedin.com/in/fernando-mor%C3%A1n-fougerat-397852295/details/certifications/">here</a>.
+    Here's a badge that I earned. See more of my certifications <a href="https://www.credly.com/badges/0000d634-3796-4c7c-90fe-8daf064c089f/linked_in_profile">here</a>.
 </div>
