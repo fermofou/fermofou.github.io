@@ -57,5 +57,4 @@ Video display of all functions and Looker Dashboard
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
     {% include repository/repo.liquid repository='JulenHopp/clonePaginaWebSorteosTec' %}
-
 </div>
