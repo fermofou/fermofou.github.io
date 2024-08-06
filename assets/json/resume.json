@@ -22,11 +22,11 @@
   },
   "work": [{
     "name": "Softtek",
-    "position": "AMS Support Member- Momentum Internship",
+    "position": "AMS Automation Engineer Jr",
     "url": "",
     "startDate": "2023-11-15",
     "endDate": "",
-    "summary": "During this internship, I have been working in Softtek’s Application Management Services area, mainly assisting in the implementation of automation services for our clients. Additionally, this experience has allowed me to take certifications to enhance my skills and also provided me with opportunities to tackle real world problems, contributing to the improvement of my programming abilities. On the projects I've worked on, I have used many technologies, including the Azure environment, machine learning libraries (MLL) in Python, C#, and Power Automate, among others."
+    "summary": "During this internship, I have been working in Softtek’s Application Management Services area, developing automation solutions for our clients.  I've became experienced with the Azure environment and Microsoft Power Automate platform, as well as in other tools such as Python, R, C#, React,Power BI and diverse machine learning libraries (scikit-learn, DL4J, Matplotlib)."
   }],
   "education": [{
     "institution": "Tecnológico de Monterrey (ITESM)",
@@ -35,18 +35,29 @@
     "studyType": "Bachelor of Science",
     "startDate": "2022-8-01",
     "endDate": "2026-06-10",
-    "GPA": "97"
+    "GPA": "4.0"
 }],
-  "certificates": [{
-    "name": "SQL (Intermediate) Certificate",
-    "date": "2024-06",
-    "issuer": "HackerRank",
-    "url": "https://www.hackerrank.com/certificates/f4f44903de58"
-  },{
+  "certificates": [
+    {
+      "name": "Github Foundations Certificate",
+    "date": "2024-07",
+    "issuer": "Github",
+    "url": "https://www.credly.com/badges/e6a75f80-7952-4c6a-a7f1-ea2b837128db"
+    },{
+      "name": "Oracle Cloud Infrastructure 2024 Generative AI Professional Certificate",
+    "date": "2024-07",
+    "issuer": "Oracle",
+    "url": "https://catalog-education.oracle.com/pls/certview/sharebadge?id=6FA826FC6D216D1E7D82F1E82B8E99566E0B8712A7CBD3263FFB98C58E945EBF"
+    },{
     "name": "Foundational C# with Microsoft",
     "date": "2024-06",
     "issuer": "freeCodeCamp",
     "url": "https://www.freecodecamp.org/certification/fermofou/foundational-c-sharp-with-microsoft"
+  },{
+    "name": "SQL (Intermediate) Certificate",
+    "date": "2024-06",
+    "issuer": "HackerRank",
+    "url": "https://www.hackerrank.com/certificates/f4f44903de58"
   },{
     "name": "French B1 level",
     "date": "2021-07",
@@ -71,6 +82,7 @@
       "React.js",
       "Node.js",
       "Postman",
+      "Insomnia",
       "HTML",
       "CSS",
       "JavaScript",
@@ -105,12 +117,13 @@
       "Azure Environment"
     ]
     },{
-    "name": "Machine Learning Libraries",
-    "level": "Intermediate",
+    "name": "Machine Learning Development",
+    "level": "Advanced",
     "keywords": [
       "Python scikit-learn",
       "TensorFlow",
-      "DL4J"
+      "DL4J",
+      "LangChain"
     ]
   },{
     "name": "Soft skills",
@@ -146,44 +159,35 @@
     "keywords": [
       "Python scikit-learn",
       "TensorFlow",
-      "R"
+      "R",
+      "DL4J",
+      "LangChain"
     ]
   },{
     "name": "Generative Artificial Intelligence",
     "keywords": [
-      "Deep Learning",
-      "OpenAI"
+      "OpenAI",
+      "Oracle Cloud Infrastructure Generative AI"
     ]
   }],
-  "projects": [{
-    "name": "CerebrAI - HACKMTY 2023",
-    "startDate": "2023-09-23",
-    "endDate": "2023-09-24",
-    "description": "CerebrAI is a web application intended to be an all-in-one investigation tool, powered by AI. It can summarize multiple document types (videos, webpages, and text), as well as extract main keywords, and related links. It also has an AI chatbot, which can answer questions about the uploaded text or document.",
+  "projects": [
+    {
+    "name": "Future Games Sorteos Tec",
+    "startDate": "2024-02-05",
+    "endDate": "2024-04-29",
+    "description": "Project that integrates the Sorteos Tec webpage functionality alongside new games developed by my team on Unity, keeping track of transactions carried out on a mySQL database hosted on Aiven servers.  I worked on designing the architecture of our database; the definition of the views needed for our dashboard; creating one game in Unity with C#; and making our responsive dashboard using Looker Studio. Made with Aiven, Node.js, Looker Studio, C#, Unity, HTML, CSS ,Javascript.",
     "highlights": [
-      "Finalist in the 10th edition of the biggest student Hackathon in Mexico, HACKMTY. Helped me aquire my current internship at Softtek."
+      "Cool web app project that allowed me to learn a lot about working with databases, APIs configuration and SCRUM framework."
     ],
     "Made with:": [
-    "Open AI API",
-      "React",
-      "Python"
-    ],
-    "url": "https://fermofou.github.io/projects/cerebrAI/"
-  },{
-    "name": "IoT Smart Plant Monitoring",
-    "startDate": "2023-09-20",
-    "endDate": "2023-12-01",
-    "description": "Project to monitor the well-being of a plant. Using a NodeMCU, we were able to connect the sensors to a database which allowed the user to see the current and all-time data in a dashboard. This project allowed me to gain much experience with working with databases, connecting my program through APIs, and understanding how electrical systems work.",
-    "highlights": [
-      "Cool IoT project that allowed me to learn a lot about working with databases and APIs configuration."
-    ],
-    "Made with:": [
-    "IoT (arduino)",
-      "MySQL",
+      "MySQL Cloud server on Aiven",
       "Node.js",
-      "Looker Studio"
+      "Looker Studio",
+      "C#",
+      "Unity",
+      "Vanilla HTML, CSS, Javascript"
     ],
-    "url": "https://fermofou.github.io/projects/plantGPT/"
+    "url": "https://fermofou.github.io/projects/sorteosTec/"
     },{
     "name": "Tare.study",
     "startDate": "2024-05-24",
@@ -199,5 +203,19 @@
       "MongoDB"
     ],
     "url": "https://devpost.com/software/tare-study"
+    },{
+      "name": "CerebrAI - HACKMTY 2023",
+      "startDate": "2023-09-23",
+      "endDate": "2023-09-24",
+      "description": "CerebrAI is a web application intended to be an all-in-one investigation tool, powered by AI. It can summarize multiple document types (videos, webpages, and text), as well as extract main keywords, and related links. It also has an AI chatbot, which can answer questions about the uploaded text or document.",
+      "highlights": [
+        "Finalist in the 10th edition of the biggest student Hackathon in Mexico, HACKMTY. Helped me aquire my current internship at Softtek."
+      ],
+      "Made with:": [
+      "Open AI API",
+        "React",
+        "Python"
+      ],
+      "url": "https://fermofou.github.io/projects/cerebrAI/"
     }]
 }
