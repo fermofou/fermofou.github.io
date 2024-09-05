@@ -1,16 +1,5 @@
 ---
-layout: page
+layout: redirected
 permalink: /cv/
-title: cv
-nav: true
-nav_order: 6
-cv_pdf: FernandoMoranCV.pdf
+redirect_to: https://your.pdf.location
 ---
-
-<script type="text/javascript">
-  window.onload = function() {
-    window.open("{{ site.baseurl }}/{{ page.cv_pdf }}", "_blank");
-  };
-</script>
-
-<!-- Your existing content here -->
