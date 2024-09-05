@@ -40,10 +40,9 @@ This project was a finalist in the 10th edition of the biggest student Hackathon
 
 Here is the link to the repository:
 
-[Visit the repository](https://github.com/SergioGzzBrz/HackMty-System32)
+<!-- [Visit the repository](https://github.com/SergioGzzBrz/HackMty-System32) -->
 
-<!--
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
     {% include repository/repo.liquid repository='fermofou/HackMty-System32' %}
 
-</div> -->
+</div>

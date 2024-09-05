@@ -53,14 +53,14 @@ Video display of all functions and Looker Dashboard
     Video displaying all features.
 </div>
 
-Here is the link to the repository:
+<!-- Here is the link to the repository:
 
-[Visit the repository](https://github.com/JulenHopp/clonePaginaWebSorteosTec)
+[Visit the repository](https://github.com/JulenHopp/clonePaginaWebSorteosTec) -->
 
-<!-- ## Repository:
+## Repository:
 
-https://github.com/JulenHopp/clonePaginaWebSorteosTec -->
-
-<!-- <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+<!--
+https://github.com/JulenHopp/clonePaginaWebSorteosTec  -->
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
     {% include repository/repo.liquid repository='JulenHopp/clonePaginaWebSorteosTec' %}
-</div> -->
+</div>
