@@ -18,5 +18,12 @@ This was a fun project where I managed to use the library pdfminer.six to separa
     </div>
 </div>
 <div class="caption">
-    On the left, my input pdf. As seen, the keyword can appear inside an item, but while it isn't in the specified format, it doesn't identify it as a new Track. Also, a word in bold that isn't the keyword can be added without problem to the item. Right, my csv output with all songs on my pdf.
+     On the left is the input PDF. Notice how the keyword, when not formatted in bold, is not recognized as a new item. Additionally, bold words that are not the designated keyword are correctly added to the same item. On the right is the generated CSV output, listing all songs from the PDF.
 </div>
+
+The program was written in Python, and I created a Bash script to streamline execution.
+
+<!-- <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+    {% include repository/repo.liquid repository='fermofou/HackMty-System32' %}
+
+</div> -->
