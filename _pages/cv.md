@@ -9,3 +9,11 @@ description: Please click the pdf symbol to the right if you would like to see o
 toc:
   sidebar: left
 ---
+
+<script type="text/javascript">
+  window.onload = function() {
+    window.open("{{ site.baseurl }}/{{ page.cv_pdf }}", "_blank");
+  };
+</script>
+
+<!-- Your existing content here -->
