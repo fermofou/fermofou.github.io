@@ -1,7 +1,7 @@
 ---
 layout: cv
-permalink: /cv/
-title: cv
+permalink: /profile/
+title: profile
 nav: true
 nav_order: 5
 # cv_pdf: FernandoMoranCV.pdf
