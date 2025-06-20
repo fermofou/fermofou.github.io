@@ -76,7 +76,7 @@ const skillCategories = [
 export default function Skills() {
   const getCardClasses = (category: string) => {
     if (category === "Databases") {
-      return "md:col-span-2 md:px-8 md:h-60 mb-16 md:mb-15";
+      return "md:col-span-2 md:px-8 md:h-60 mb-8 md:mb-8";
     }
     return "";
   };

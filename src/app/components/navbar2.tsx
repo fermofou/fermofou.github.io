@@ -10,6 +10,7 @@ export default function Navbar2() {
     const handleScroll = () => {
       setScrolled(window.scrollY > 300);
     };
+    handleScroll(); // Check immediately on mount
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -31,6 +32,7 @@ export default function Navbar2() {
 
   // Common background effect for all sizes
   const bgClass = scrolled ? "bg-[#0c142c]/90" : "bg-transparent";
+  const dropdownBgClass = scrolled ? "bg-[#0c142c]/90" : "bg-[#2f1b0e]/98";
 
   return (
     <nav
@@ -84,6 +86,7 @@ export default function Navbar2() {
             className="focus:outline-none"
             onClick={() => setOpen((prev) => !prev)}
             aria-label="Toggle menu"
+            type="button"
           >
             <div className="w-8 h-1 bg-white mb-1 rounded" />
             <div className="w-8 h-1 bg-white mb-1 rounded" />
@@ -93,12 +96,14 @@ export default function Navbar2() {
           {open && (
             <div
               ref={menuRef}
-              className="absolute right-0 mt-2 w-48 bg-[#0c142c] rounded shadow-lg flex flex-col py-2 border border-transparent"
+              className={`absolute right-0 mt-2 w-48 rounded shadow-lg flex flex-col py-2 border border-transparent ${dropdownBgClass}`}
             >
               <a
                 href="#about"
                 className="text-white px-4 py-2 hover:bg-amber-400/20"
-                onClick={() => setOpen(false)}
+                onClick={() => {
+                  setOpen(false);
+                }}
               >
                 About
               </a>
