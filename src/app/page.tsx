@@ -3,7 +3,6 @@ import ContactForm from "./components/contactMe";
 import ProjectCard from "./components/project-card";
 import HeroBanner from "./components/hero-banner";
 import CompaniesBanner from "./components/companies";
-import Navbar from "./components/navbar";
 import Navbar2 from "./components/navbar2";
 import Skills from "./components/skills";
 
