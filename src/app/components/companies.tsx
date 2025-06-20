@@ -1,43 +1,42 @@
 const companies = [
   {
-    name: "ITESM",
-    logo: "/tec.svg?height=60&width=120",
-    role: "Computer Science Student",
-  },
-  {
     name: "MongoDB.",
-    logo: "/mongoDB.svg?height=60&width=120",
+    logo: "/mongoDB.svg?width=200&height=200",
     role: "Frontend Developer Intern",
   },
   {
+    name: "ITESM",
+    logo: "/tec.png",
+    role: "Software Engineering Intern",
+  },
+  {
     name: "Softtek",
-    logo: "/softtek.png?height=60&width=120",
+    logo: "/softtek.png?width=180&height=90",
     role: "Full Stack Intern",
   },
 ];
 
 export default function CompaniesSection() {
   return (
-    <section className="py-16 bg-muted/20">
-      <div className="container px-4 md:px-6">
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-8 items-center justify-items-center">
-          {companies.map((company, index) => (
+    <section className="bg-muted/100">
+      <div className="container mx-auto px-4 md:px-5">
+        <div className="grid grid-cols-3 gap-8 items-center justify-items-center">
+          {companies.map((company) => (
             <div
               key={company.name}
-              className="group flex flex-col items-center space-y-2 animate-fade-in-up hover:scale-105 transform duration-300"
-              style={{ animationDelay: `${index * 0.1}s` }}
+              className="flex items-center justify-center transition-transform duration-300 hover:scale-110"
+              style={{ transition: "transform 0.3s", willChange: "transform" }}
             >
-              <div className="relative w-24 h-12 md:w-32 md:h-16 transition-all duration-300">
-                <img
-                  src={company.logo || "/placeholder.svg"}
-                  alt={`${company.name} logo`}
-                  className="object-contain"
-                />
-              </div>
-              <div className="text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <p className="text-xs font-medium">{company.name}</p>
-                <p className="text-xs text-muted-foreground">{company.role}</p>
-              </div>
+              <img
+                src={company.logo || "/placeholder.svg"}
+                alt={`${company.name} logo`}
+                className={`object-contain w-full h-full transition-transform duration-300 hover:scale-110 ${
+                  company.name === "Softtek"
+                    ? "max-h-30 max-w-[150px]"
+                    : "max-h-40 max-w-[220px]"
+                }`}
+                style={{ display: "block" }}
+              />
             </div>
           ))}
         </div>

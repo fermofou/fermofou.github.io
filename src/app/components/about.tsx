@@ -1,145 +1,120 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Briefcase, Code, User } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Github, Linkedin, Mail, Youtube } from "lucide-react";
 
-const personalInfo = {
-  bio: "Passionate full-stack developer with 3+ years of experience building scalable web applications. I love solving complex problems and learning new technologies.",
-  location: "San Francisco, CA",
-  experience: "3+ years",
-};
-
-const internships = [
-  {
-    company: "Tech Startup Inc.",
-    role: "Software Engineering Intern",
-    duration: "Summer 2023",
-    description:
-      "Developed React components and REST APIs, improving user engagement by 25%",
-    technologies: ["React", "Node.js", "PostgreSQL"],
-  },
-  {
-    company: "Digital Solutions Co.",
-    role: "Frontend Developer Intern",
-    duration: "Summer 2022",
-    description:
-      "Built responsive web interfaces and collaborated with design team on UI/UX improvements",
-    technologies: ["Vue.js", "TailwindCSS", "Figma"],
-  },
-];
-
-const currentProjects = [
-  {
-    name: "AI-Powered Analytics Dashboard",
-    status: "In Development",
-    description:
-      "Building a real-time analytics platform with machine learning insights",
-    technologies: ["Next.js", "Python", "TensorFlow", "D3.js"],
-  },
-  {
-    name: "Open Source Component Library",
-    status: "Active",
-    description:
-      "Contributing to a React component library used by 10k+ developers",
-    technologies: ["React", "TypeScript", "Storybook", "Jest"],
-  },
-];
-
-export default function AboutInfo() {
+export default function AboutSection() {
   return (
-    <div className="mt-16 space-y-8">
-      {/* Personal Info */}
-      <Card>
-        <CardHeader>
-          <CardTitle className="flex items-center gap-2">
-            <User className="h-5 w-5" />
-            About Me
-          </CardTitle>
-        </CardHeader>
-        <CardContent>
-          <p className="text-muted-foreground mb-4">{personalInfo.bio}</p>
-          <div className="flex flex-wrap gap-4 text-sm">
+    <section className="py-20 bg-white dark:bg-gray-900">
+      <div className="container mx-auto ">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-4xl font-bold mb-12 text-center">About Me</h2>
+
+          <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <span className="font-medium">Location:</span>{" "}
-              {personalInfo.location}
+              <img
+                src="/pic2.jpeg?height=512&width=512"
+                alt="Profile photo"
+                className="w-128 h-128 rounded-full mx-auto mb-6 shadow-lg object-cover"
+              />
+              {/* Social links */}
+              <div className="flex justify-center space-x-4 mb-12">
+                <a href="https://github.com/fermofou" target="_blank">
+                  <Button
+                    variant="outline"
+                    size="icon"
+                    className="rounded-full bg-[#163b65] text-white border-white hover:bg-[#182037] hover:text-white"
+                  >
+                    <Github className="h-5 w-5" />
+                    <span className="sr-only">GitHub</span>
+                  </Button>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/fernandomoranf"
+                  target="_blank"
+                >
+                  <Button
+                    variant="outline"
+                    size="icon"
+                    className="rounded-full bg-[#163b65] text-white border-white hover:bg-[#182037] hover:text-white"
+                  >
+                    <Linkedin className="h-5 w-5" />
+                    <span className="sr-only">LinkedIn</span>
+                  </Button>
+                </a>
+                <a href="https://www.youtube.com/@fermofou" target="_blank">
+                  <Button
+                    variant="outline"
+                    size="icon"
+                    className="rounded-full bg-[#163b65] text-white border-white hover:bg-[#182037] hover:text-white"
+                  >
+                    <Youtube className="h-5 w-5" />
+                    <span className="sr-only">Youtube</span>
+                  </Button>
+                </a>
+                <a href="mailto:fermofou@gmail.com">
+                  <Button
+                    variant="outline"
+                    size="icon"
+                    className="rounded-full bg-[#163b65] text-white border-white hover:bg-[#182037] hover:text-white"
+                  >
+                    <Mail className="h-5 w-5" />
+                    <span className="sr-only">Email</span>
+                  </Button>
+                </a>
+              </div>
             </div>
             <div>
-              <span className="font-medium">Experience:</span>{" "}
-              {personalInfo.experience}
+              <h3 className="text-2xl font-semibold mb-4">
+                ITESM, Student in B.S. in Computer Science and Technology
+              </h3>
+              <p className="text-gray-600 dark:text-gray-300 mb-6">
+                I'm a Computer Science student with a strong passion for
+                learning new technologies and solving challenges. My interests
+                span software design and development, artificial intelligence,
+                machine learning, and automation.
+              </p>
+              <p className="text-gray-600 dark:text-gray-300">
+                I'm currently in my 7th semester, making an investigation stay
+                in Automated Machine Learning and developing Neural Networks.
+              </p>
+
+              <h3 className="text-2xl font-semibold mb-4">Education</h3>
+              <div className="space-y-4">
+                <div className="border-l-4 border-[#163b65] pl-4">
+                  <h4 className="font-medium">
+                    Instituto Tecnológico y de Estudios Superiores de Monterrey
+                    (ITESM)
+                  </h4>
+                  <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
+                    2022 - Present
+                  </p>
+                  <div className="space-y-2">
+                    <div>
+                      <Badge variant="outline" className="mr-2">
+                        Degree
+                      </Badge>
+                      B.S. in Computer Science and Technology
+                    </div>
+                    <div>
+                      <Badge variant="outline" className="mr-2">
+                        Award
+                      </Badge>
+                      50% Academic Talent Scholarship
+                    </div>
+                    <div>
+                      <Badge variant="outline" className="mr-2">
+                        Current GPA
+                      </Badge>
+                      4.0
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </CardContent>
-      </Card>
-
-      {/* Internships */}
-      <Card>
-        <CardHeader>
-          <CardTitle className="flex items-center gap-2">
-            <Briefcase className="h-5 w-5" />
-            Previous Internships
-          </CardTitle>
-        </CardHeader>
-        <CardContent className="space-y-6">
-          {internships.map((internship, index) => (
-            <div key={index} className="border-l-2 border-primary/20 pl-4">
-              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
-                <h3 className="font-semibold">{internship.role}</h3>
-                <Badge variant="outline">{internship.duration}</Badge>
-              </div>
-              <p className="text-primary font-medium mb-2">
-                {internship.company}
-              </p>
-              <p className="text-muted-foreground mb-3">
-                {internship.description}
-              </p>
-              <div className="flex flex-wrap gap-2">
-                {internship.technologies.map((tech) => (
-                  <Badge key={tech} variant="secondary" className="text-xs">
-                    {tech}
-                  </Badge>
-                ))}
-              </div>
-            </div>
-          ))}
-        </CardContent>
-      </Card>
-
-      {/* Current Projects */}
-      <Card>
-        <CardHeader>
-          <CardTitle className="flex items-center gap-2">
-            <Code className="h-5 w-5" />
-            Current Projects
-          </CardTitle>
-        </CardHeader>
-        <CardContent className="space-y-6">
-          {currentProjects.map((project, index) => (
-            <div
-              key={index}
-              className="border-l-2 border-green-500/20 dark:border-green-400/20 pl-4"
-            >
-              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
-                <h3 className="font-semibold">{project.name}</h3>
-                <Badge
-                  variant="outline"
-                  className="text-green-600 dark:text-green-400 border-green-600 dark:border-green-400"
-                >
-                  {project.status}
-                </Badge>
-              </div>
-              <p className="text-muted-foreground mb-3">
-                {project.description}
-              </p>
-              <div className="flex flex-wrap gap-2">
-                {project.technologies.map((tech) => (
-                  <Badge key={tech} variant="secondary" className="text-xs">
-                    {tech}
-                  </Badge>
-                ))}
-              </div>
-            </div>
-          ))}
-        </CardContent>
-      </Card>
-    </div>
+        </div>
+      </div>
+    </section>
   );
 }
