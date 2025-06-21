@@ -6,12 +6,12 @@ const companies = [
   },
   {
     name: "ITESM",
-    logo: "/tec.png",
+    logo: "/tec.svg",
     role: "Software Engineering Intern",
   },
   {
     name: "Softtek",
-    logo: "/softtek.png?width=180&height=90",
+    logo: "/softtek.png?width=170&height=80",
     role: "Full Stack Intern",
   },
 ];

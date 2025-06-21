@@ -7,6 +7,7 @@ interface ProjectCardProps {
   description: string;
   image: string;
   link: string;
+  demo?: string;
   tags: string[];
 }
 
@@ -15,6 +16,7 @@ export default function ProjectCard({
   description,
   image,
   link,
+  demo,
   tags,
 }: ProjectCardProps) {
   const [open, setOpen] = useState(false);
@@ -23,14 +25,14 @@ export default function ProjectCard({
     <>
       {/* Square card with image and title only */}
       <div
-        className="relative cursor-pointer group aspect-square bg-black border flex items-end justify-center overflow-hidden hover:shadow-lg transition-all duration-300 p-0 m-0"
+        className="relative cursor-pointer group aspect-square bg-black border flex items-end justify-center overflow-hidden hover:shadow-2xl transition-all duration-300 p-0 m-0 hover:scale-105 hover:z-20"
         onClick={() => setOpen(true)}
         style={{ minWidth: 0 }}
       >
         <img
-          src={image || "/placeholder.svg"}
+          src={image || "vite.svg"}
           alt={title}
-          className="object-cover w-full h-full absolute top-0 left-0"
+          className="object-cover w-full h-full absolute top-0 left-0 transition-transform duration-300 group-hover:scale-110"
           style={{ zIndex: 0 }}
         />
         <div className="w-full text-center p-2 bg-black/70 text-white text-base font-semibold relative z-10">
@@ -81,14 +83,16 @@ export default function ProjectCard({
                 <Github className="h-4 w-4" />
                 View on GitHub
               </Link>
-              <Link
-                to={link}
-                target="_blank"
-                className="inline-flex items-center gap-2 text-sm hover:underline font-medium"
-              >
-                <ExternalLink className="h-4 w-4" />
-                Live Demo
-              </Link>
+              {demo && (
+                <Link
+                  to={demo}
+                  target="_blank"
+                  className="inline-flex items-center gap-2 text-sm hover:underline font-medium"
+                >
+                  <ExternalLink className="h-4 w-4" />
+                  Live Demo
+                </Link>
+              )}
             </div>
           </div>
         </div>

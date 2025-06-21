@@ -5,7 +5,7 @@ import { Github, Linkedin, Mail, Youtube } from "lucide-react";
 
 export default function AboutSection() {
   return (
-    <section className="py-20 bg-white dark:bg-gray-900">
+    <section className="py-10 md:py-15 bg-white dark:bg-gray-900">
       <div className="container mx-auto ">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl font-bold mb-12 text-center">About Me</h2>
@@ -64,23 +64,22 @@ export default function AboutSection() {
                 </a>
               </div>
             </div>
-            <div>
-              <h3 className="text-2xl font-semibold mb-4">
-                ITESM, Student in B.S. in Computer Science and Technology
-              </h3>
+            <div className="flex flex-col items-center md:items-start text-center md:text-left">
+              <h3 className="text-2xl font-semibold mb-4">Software Engineer</h3>
               <p className="text-gray-600 dark:text-gray-300 mb-6">
-                I'm a Computer Science student with a strong passion for
-                learning new technologies and solving challenges. My interests
-                span software design and development, artificial intelligence,
-                machine learning, and automation.
+                I'm a Computer Science student with 1+ year of work experience,
+                with a strong passion for learning new technologies and solving
+                challenges. My interests span software design and development,
+                artificial intelligence, machine learning, and automation.
               </p>
-              <p className="text-gray-600 dark:text-gray-300">
-                I'm currently in my 7th semester, making an investigation stay
-                in Automated Machine Learning and developing Neural Networks.
+              <p className="text-gray-600 dark:text-gray-300 ">
+                I'm currently interning at MongoDB and preparing to begin my 7th
+                semester, during which I'll pursue a research stay focused on
+                Automated Machine Learning and Neural Network development.
               </p>
 
-              <h3 className="text-2xl font-semibold mb-4">Education</h3>
-              <div className="space-y-4">
+              <h3 className="text-2xl font-semibold mb-4 py-5">Education</h3>
+              <div className="space-y-4 w-full">
                 <div className="border-l-4 border-[#163b65] pl-4">
                   <h4 className="font-medium">
                     Instituto Tecnológico y de Estudios Superiores de Monterrey

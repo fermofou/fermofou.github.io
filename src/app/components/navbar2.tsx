@@ -41,7 +41,7 @@ export default function Navbar2() {
       {/* Desktop/Laptop Navbar */}
       <div className="hidden md:flex items-center justify-between px-8 h-16">
         <span className="text-2xl font-bold text-amber-400">
-          Fernando Morán
+          <a href="#hero">Fernando Morán</a>
         </span>
         <div className="flex items-center gap-8">
           <a
@@ -79,7 +79,10 @@ export default function Navbar2() {
       </div>
       {/* Mobile Navbar */}
       <div className="flex md:hidden items-center justify-between px-4 h-16">
-        <span className="text-xl font-bold text-amber-400">FM</span>
+        <span className="text-xl font-bold text-amber-400">
+          {" "}
+          <a href="#hero">FM</a>
+        </span>
         {/* Hamburger for mobile */}
         <div className="md:hidden relative">
           <button

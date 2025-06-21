@@ -38,7 +38,7 @@ const skillCategories = [
       { name: "Docker", icon: "docker.svg" },
       { name: "Kubernetes", icon: "kubernets.svg" },
       { name: "Linux", icon: "Tux.svg" },
-      { name: "Git /GitHub", icon: "github.svg" },
+      { name: "Git / GitHub", icon: "github.svg" },
       { name: "Power Automate", icon: "powerAutomate.svg" },
     ],
   },
@@ -76,7 +76,9 @@ const skillCategories = [
 export default function Skills() {
   const getCardClasses = (category: string) => {
     if (category === "Databases") {
-      return "md:col-span-2 md:px-8 md:h-60 mb-8 md:mb-8";
+      // Use landscape: prefix for small screens (Tailwind CSS v3.4+)
+      // This sets min-h-[370px] only when in landscape orientation on small screens
+      return "md:col-span-2 md:px-8 md:h-60 min-h-[350px] landscape:min-h-[370px] mb-8 md:mb-8";
     }
     return "";
   };
@@ -265,10 +267,10 @@ export default function Skills() {
 
   return (
     <section className="pt-4">
-      <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-16 text-center">
+      <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-6 text-center py-10 md:py-15">
         Skills & Technologies
       </h2>
-      <div className="grid gap-6 grid-cols-1 md:grid-cols-2 justify-center">
+      <div className="grid gap-4 grid-cols-1 md:grid-cols-2 justify-center">
         {skillCategories.map((category, categoryIndex) => (
           <Card
             key={category.category}
