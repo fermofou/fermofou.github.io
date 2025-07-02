@@ -90,7 +90,9 @@ export default function ProjectCard({
                   className="inline-flex items-center gap-2 text-sm hover:underline font-medium"
                 >
                   <ExternalLink className="h-4 w-4" />
-                  Live Demo
+                  {demo && demo.includes("youtube")
+                    ? "Youtube Demo"
+                    : "Live Demo"}
                 </Link>
               )}
             </div>

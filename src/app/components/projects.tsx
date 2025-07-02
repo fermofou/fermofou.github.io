@@ -4,7 +4,7 @@ const projectsList = [
   {
     title: "CodeCourses",
     description:
-      "A full-stack coding platform built with Next.js, Prisma, and Stripe integration.",
+      "A full-stack coding learning platform with gamification, rewards and many features.",
     image: "/projects/CodeCourses.png?height=600&width=600",
     link: "https://github.com/fermofou/CodeCourses",
     demo: "https://www.youtube.com/watch?v=v5wk9jZ-Slo",
@@ -31,45 +31,47 @@ const projectsList = [
   {
     title: "One Pot",
     description:
-      "A smart platform designed to streamline event planning and investing with friends.",
+      "A smart banking platform designed to streamline event planning and investing with friends.",
     image: "/fot.jpg?height=600&width=600",
-    link: "https://github.com",
-    tags: ["React", "TailwindCSS"],
+    link: "https://github.com/fermofou/OnePot__HACKMTY2024",
+    demo: "https://www.youtube.com/watch?v=E1RqnhSbVR4",
+    tags: ["React", "MongoDB", "Node.js", "Express"],
   },
   {
-    title: "decrypt",
+    title: "CerebrAI",
     description: "A modern blog platform with markdown support.",
     image: "/fot.jpg?height=600&width=600",
     link: "https://github.com",
     tags: ["Next.js", "MDX"],
   },
   {
-    title: "Weather App",
+    title: "Take5",
     description: "A weather forecast app using OpenWeatherMap API.",
     image: "/fot.jpg?height=600&width=600",
     link: "https://github.com",
     tags: ["React", "API"],
   },
   {
-    title: "CerebrAI",
+    title: "Automated Plant Care System",
     description: "A finance tracker for personal budgeting.",
     image: "/fot.jpg?height=600&width=600",
     link: "https://github.com",
     tags: ["React", "Redux"],
   },
   {
-    title: "Automated Plant Care System",
+    title: "sa",
     description: "Find recipes by ingredients using a public API.",
     image: "/fot.jpg?height=600&width=600",
     link: "https://github.com",
     tags: ["React", "API"],
   },
   {
-    title: "Fitness App",
-    description: "A fitness tracking app with workout plans.",
-    image: "/fot.jpg?height=600&width=600",
-    link: "https://github.com",
-    tags: ["React Native", "Expo"],
+    title: "Parallel substitution decryption",
+    description: "Python code that decripts text using parallel programming.",
+    image: "/projects/decrypt.jpg?height=600&width=600",
+    link: "https://github.com/fermofou/decrypt",
+    demo: "https://replit.com/@FernandoMoran4/E2-Applied-parallel-programming#main.py",
+    tags: ["Python", "Multiprocessing"],
   },
 ];
 
