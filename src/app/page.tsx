@@ -71,20 +71,7 @@ export default function Home() {
           <p className="text-xs text-gray-500 dark:text-gray-400">
             © 2025 Fernando Morán. All rights reserved.
           </p>
-          <nav className="sm:ml-auto flex gap-6 sm:gap-8">
-            <a
-              className="text-xs hover:underline underline-offset-4 transition-colors"
-              href="#"
-            >
-              Terms of Service
-            </a>
-            <a
-              className="text-xs hover:underline underline-offset-4 transition-colors"
-              href="#"
-            >
-              Privacy
-            </a>
-          </nav>
+          <nav className="sm:ml-auto flex gap-6 sm:gap-8"></nav>
         </div>
       </footer>
     </div>

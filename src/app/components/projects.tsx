@@ -22,7 +22,7 @@ const projectsList = [
   {
     title: "Sorteos Tec Clone",
     description:
-      "An AI-powered chat interface with natural language processing capabilities.",
+      "Sorteos tec clone with added custom Unity games, admin page and dashboard.",
     image: "/projects/SorteosTec.png?height=600&width=600",
     link: "https://github.com/fermofou/PaginaWebSorteosTec",
     demo: "https://www.youtube.com/watch?v=iaOVPcZ30gI",
@@ -32,38 +32,41 @@ const projectsList = [
     title: "One Pot",
     description:
       "A smart banking platform designed to streamline event planning and investing with friends.",
-    image: "/fot.jpg?height=600&width=600",
+    image: "/projects/onePot.png",
     link: "https://github.com/fermofou/OnePot__HACKMTY2024",
     demo: "https://www.youtube.com/watch?v=E1RqnhSbVR4",
     tags: ["React", "MongoDB", "Node.js", "Express"],
   },
   {
     title: "CerebrAI",
-    description: "A modern blog platform with markdown support.",
-    image: "/fot.jpg?height=600&width=600",
-    link: "https://github.com",
-    tags: ["Next.js", "MDX"],
+    description: "An all-in-one investigation tool, powered by AI.",
+    image: "/projects/CerebrAi.jpg?height=600&width=600",
+    link: "https://github.com/fermofou/CerebrAI",
+    tags: ["Python", "React", "OpenAI"],
   },
   {
     title: "Take5",
-    description: "A weather forecast app using OpenWeatherMap API.",
-    image: "/fot.jpg?height=600&width=600",
-    link: "https://github.com",
-    tags: ["React", "API"],
+    description:
+      "App designed to help users manage stress and anxiety through grounding techniques.",
+    image: "/projects/take5.png?height=600&width=600",
+    link: "https://github.com/fermofou/take5_SwiftStudentChallenge25",
+    demo: "https://www.youtube.com/watch?v=KHa8ZE4fGfI",
+    tags: ["Swift"],
   },
   {
     title: "Automated Plant Care System",
-    description: "A finance tracker for personal budgeting.",
-    image: "/fot.jpg?height=600&width=600",
-    link: "https://github.com",
-    tags: ["React", "Redux"],
+    description: "IoT project that cheks wellbeing on a plant.",
+    image: "/projects/plantGPT.png?height=600&width=600",
+    link: "https://github.com/fermofou/PlantGPT",
+    tags: ["C++", "SQL", "Node.js", "Express", "Looker Studio"],
   },
   {
-    title: "sa",
-    description: "Find recipes by ingredients using a public API.",
-    image: "/fot.jpg?height=600&width=600",
-    link: "https://github.com",
-    tags: ["React", "API"],
+    title: "tareStudy",
+    description:
+      "Smart platform empowering teachers with AI to track performance and generate personalized lessons and exams.",
+    image: "/projects/tareStudy.png?height=600&width=600",
+    link: "https://github.com/fermofou/TARE.study",
+    tags: ["mongodb", "openai", "python", "react", "node.js"],
   },
   {
     title: "Parallel substitution decryption",
@@ -71,7 +74,7 @@ const projectsList = [
     image: "/projects/decrypt.jpg?height=600&width=600",
     link: "https://github.com/fermofou/decrypt",
     demo: "https://replit.com/@FernandoMoran4/E2-Applied-parallel-programming#main.py",
-    tags: ["Python", "Multiprocessing"],
+    tags: ["Python", "Multiprocessing", "Parallel Programming"],
   },
 ];
 
