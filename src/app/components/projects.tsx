@@ -4,11 +4,11 @@ const projectsList = [
   {
     title: "CodeCourses",
     description:
-      "A full-stack coding learning platform with gamification, rewards and many features.",
+      "A full-stack coding learning platform with gamification, rewards and many features. Connected to backend with Remote Code Execution using Docker.",
     image: "/projects/CodeCourses.png?height=600&width=600",
     link: "https://github.com/fermofou/CodeCourses",
     demo: "https://www.youtube.com/watch?v=v5wk9jZ-Slo",
-    tags: ["React", "Go", "PostgreSQL", "Clerk"],
+    tags: ["React", "Go", "PostgreSQL", "Redis", "Linux", "Docker", "Clerk"],
   },
   {
     title: "Bufetec-App",
